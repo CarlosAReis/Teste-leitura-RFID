@@ -15,21 +15,21 @@
 //**************************************
 //*********** MQTT CONFIG **************
 //**************************************
-const char *mqtt_server = "52.14.171.32";  ///helix ip
-const int mqtt_port = 1883;//1883,1026,4041
-const char *mqtt_user = "NnB7tFj8KgQdkjg";
-const char *mqtt_pass = "KoTg3FGuYMMwSxW";
-const char *root_topic_subscribe = "qkk2sNHLWr2MFm6/input";// "qkk2sNHLWr2MFm6/input"
-const char *root_topic_publish = "Antenna001";
-const char* dispositivoID = "LEITOR_004";// id do dispositivo 
+const char *mqtt_server = "";  ///helix ip
+const int mqtt_port = ;//1883,1026,4041
+const char *mqtt_user = "";
+const char *mqtt_pass = "";
+const char *root_topic_subscribe = "";// "qkk2sNHLWr2MFm6/input"
+const char *root_topic_publish = "";//nome do tópico de publicação
+const char* dispositivoID = "LEITOR_00xxx";// id do dispositivo 
 String leituraTAG = " ";
 String Novaleitura = " ";
 //char aux[16];
 //**************************************
 //*********** WIFICONFIG ***************
 //**************************************
-const char* ssid = "Violetas"; //suarede
-const char* password = "reis151293";//suasenha
+const char* ssid = ""; //suarede
+const char* password = "";//suasenha
 
 
 //**************************************
